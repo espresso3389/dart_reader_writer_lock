@@ -1,12 +1,12 @@
 name: reader_writer_lock
 description: Simple reader-writer-lock implementation upon mutex package
-version: 0.1.0
+version: 0.2.0
 homepage: https://github.com/espresso3389/dart_reader_writer_lock
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
-dependencies:
-  mutex: ^1.0.3
+#dependencies:
+#  mutex: ^1.0.3
 
 dev_dependencies:
