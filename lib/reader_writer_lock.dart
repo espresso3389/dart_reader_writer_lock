@@ -178,7 +178,7 @@ class ReadWriteMutex {
 
   /// Internal acquire method.
   ///
-  Future _acquire(bool isRead, {bool priority}) {
+  Future _acquire(bool isRead, {bool priority = false}) {
     final newJob = _ReadWriteMutexRequest(isRead: isRead);
     if (!_jobAcquired(newJob)) {
       if (priority) {
