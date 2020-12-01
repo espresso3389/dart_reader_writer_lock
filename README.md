@@ -1,3 +1,7 @@
+# NOTE
+
+This package has serious issues on its design and discontinued now. Please don't use it.
+
 # reader_writer_lock
 
 Simple reader-writer-lock implementation upon [mutex](https://pub.dev/packages/mutex) package.
