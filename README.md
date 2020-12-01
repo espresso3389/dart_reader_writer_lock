@@ -1,6 +1,6 @@
 # NOTE
 
-This package has serious issues on its design and discontinued now. Please don't use it.
+This package has serious issues on its design and it is discontinued now. Please don't use it.
 
 # reader_writer_lock
 
